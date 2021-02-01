@@ -2,6 +2,8 @@
 
 Let's improve upon our previous exercise by adding some images. Have a look at the new and improved page [here](https://digitalcareerinstitute.github.io/UIB-content-the-sweet-spot-v2/index.html)
 
+There are example solutions here. The examples have broken and poorly written HTML - feel free to fix it for your fork :)s
+
 #### Main Page
 
 ![main page](images/main.png)
