@@ -1,3 +1,16 @@
+.main-header {
+  background-image: url("./images/main-header.jpg");
+  height: 200px;
+  background-size: cover;
+
+}.contact-header {
+  background-image: url("./images/contact-header.jpeg");
+  height: 200px;
+  background-size: cover;
+}
+
+
+
 h1 {
   background-color: #f58ea0;
   color: #dad8d8;
@@ -18,6 +31,27 @@ h2 {
 
 .subtopic:hover {
   color: rgb(30, 215, 240);
+}
+
+.circular-images {
+  width: 18%;
+  border-radius: 50%;
+  height: 120px;
+}
+
+.lollipop-img {
+  float: left;
+  border: solid 5px #ebf64d;
+}
+
+.candyfloss-img {
+  float: right;
+  border: solid 5px rgb(30, 215, 240);
+}
+
+.jellybeans-img {
+  float: left;
+  border: solid 5px hotpink;
 }
 
 .partners:active {
