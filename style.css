@@ -1,56 +1,85 @@
+
+html body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(/images/pic1.jpg);
+  background-size: cover;
+  font-style: italic;
+  font-family: cursive;
+  font-size: 20px;
+  line-height: 2em;
+  font-weight: 300;
+  
+}
+
 h1 {
-  background-color: #f58ea0;
-  color: #dad8d8;
+   justify-content: center;
+   font-size: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 4em;
+  color:rgba(197, 69, 148, 0.925);  
+  text-shadow: #fffbfd 10px -10px 3px;
+  
+}
+h2{
+  color: rgb(233, 146, 221, 0.877);
+  font-size: 4.2em;
+  text-align: center;
+  line-height: 1em;
+  text-shadow: 4px 4px rgb(247, 241, 245);
+}
+P {
+  color: rgb(168, 38, 77);
+  text-align: center;
+  line-height: 1em;
+
+}
+}
+h3 {
+  color: rgb(199, 33, 61);
+  font-size: 2em;
+  text-align: center;
+  line-height: 1em;
+  text-shadow: 4px 4px rgb(247, 241, 245);
+
+
 }
 
-h2 {
-  color: #f112f1;
-  background-color: #dad8d8;
-}
+h4{
+  color: slateblue;
+font-size: 30px;
+text-align: center;
+line-height: 1em;
 
-#main-topic {
-  background-color: hotpink;
 }
+.list {
+  justify-content: center;
+  text-align: center;
+  text-shadow: 4px 4px rgb(250, 140, 213);
 
+ 
+
+
+
+}
+/*
+.header{
+  background-image: url("https://www.lifespan.io/wp-content/uploads/2019/01/rendered-1.png"); 
+  background-position: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  padding-top: 50p;
+  position: relative;
+}
+*/
 .subtopic {
-  background-color: #ebf64d;
-}
 
-.subtopic:hover {
-  color: rgb(30, 215, 240);
-}
-
-.partners:active {
-  background-color: hotpink;
-  color: #efefef;
-}
-
-h4 + ul {
-  list-style: none;
-}
-
-h4 + ul:hover {
-  background-color: #ebf64d;
-}
-
-#contact a:visited {
-  color: rgb(30, 215, 240);
-}
-
-/* CONTACT PAGE */
-
-ul {
-  background-color: rgb(30, 215, 240);
-}
-
-ul:hover {
-  background-color: #f58ea0;
-}
-
-h3 + ul li {
-  list-style: circle;
-}
-
-#main a:visited {
-  color: #ec10bd;
+  color: rgb(218, 74, 218);
+  text-align: center;
+  line-height: 2em;
 }
