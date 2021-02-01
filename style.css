@@ -1,11 +1,17 @@
+* {
+    font-size: 26px;
+}
 h1 {
   background-color: #f58ea0;
   color: #dad8d8;
+  font-size: 1.7em;
+  font-weight: bold;
 }
 
 h2 {
   color: #f112f1;
   background-color: #dad8d8;
+  font-size: 1.25em;
 }
 
 #main-topic {
