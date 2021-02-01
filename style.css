@@ -1,3 +1,15 @@
+.main-header {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.main-header img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 h1 {
   background-color: #f58ea0;
   color: #dad8d8;
@@ -9,7 +21,7 @@ h2 {
 }
 
 #main-topic {
-  background-color: hotpink;
+  background-color: #ff69b4;
 }
 
 .subtopic {
@@ -17,11 +29,39 @@ h2 {
 }
 
 .subtopic:hover {
-  color: rgb(30, 215, 240);
+  color: #1ed7f0;
+}
+
+h2 a {
+  cursor: pointer;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.lolly, .cotton, .jelly {
+  border-radius: 50%;
+}
+
+.lolly {
+  border: 5px solid #ebf64d;
+}
+
+.cotton {
+  border: 5px solid #1ed7f0;
+}
+
+.jelly {
+  border: 5px solid #ff69b4;
 }
 
 .partners:active {
-  background-color: hotpink;
+  background-color: #ff69b4;
   color: #efefef;
 }
 
@@ -34,13 +74,26 @@ h4 + ul:hover {
 }
 
 #contact a:visited {
-  color: rgb(30, 215, 240);
+  color: #1ed7f0;
 }
 
 /* CONTACT PAGE */
 
+.contact-header {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.contact-header img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
 ul {
-  background-color: rgb(30, 215, 240);
+  background-color: #1ed7f0;
 }
 
 ul:hover {
