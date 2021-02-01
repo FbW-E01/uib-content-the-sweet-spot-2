@@ -54,3 +54,26 @@ h3 + ul li {
 #main a:visited {
   color: #ec10bd;
 }
+
+a img {
+  border-radius: 50%;
+  width: 125px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.lollipop {
+  float: left;
+  border: 5px solid #ebf64d;
+}
+
+.cottoncandy {
+  float: right;
+  border: 5px solid #1ed7f0;
+}
+
+.jelly_bean {
+  float: left;
+  border: 5px solid #ff69b4;
+
+}
