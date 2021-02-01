@@ -1,3 +1,15 @@
+  html{
+    background-color: rgba(122, 93, 155, 0.329);
+  }
+  .main-class{
+    width: 80%;
+    margin-left: 10%;
+    background: #f4a56041;
+  }
+  #main-header-image{
+    width: 100%; height: 200px;
+    object-fit: cover;
+  }
 h1 {
   background-color: #f58ea0;
   color: #dad8d8;
@@ -36,7 +48,32 @@ h4 + ul:hover {
 #contact a:visited {
   color: rgb(30, 215, 240);
 }
+ .treats{
+color: rgb(21, 136, 31);
+font-weight: bolder;
+}
+#lollipop{
+  float: left;
+  width: 100px;
+  border: solid 7px rgba(255, 255, 0, 0.856);
+  border-radius: 70%;
+  object-fit: cover; 
+}
 
+#candyfloss{
+  float: right;
+  height: 120px; width: 150px;
+  border: solid 7px aquamarine;
+  border-radius: 80%;
+  object-fit: cover; 
+}
+
+#jellybeans{
+  float: left;
+  width: 100px; height: 110px;
+  border: solid 7px pink;
+  border-radius: 70%; 
+}
 /* CONTACT PAGE */
 
 ul {
@@ -53,4 +90,9 @@ h3 + ul li {
 
 #main a:visited {
   color: #ec10bd;
+}
+.contact-header {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
