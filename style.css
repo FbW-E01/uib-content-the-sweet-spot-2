@@ -1,3 +1,36 @@
+/* Section added by Kai */
+
+#header-image {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+#treats-image {
+  width: 120px;
+  height: 100px;
+  float: left;
+  border-radius: 50%;
+  border: 5px solid #ebf64d;
+}
+
+#floss-image {
+  width: 120px;
+  height: 100px;
+  float: right;
+  border-radius: 50%;
+  border: 5px solid rgb(30, 215, 240);
+}
+
+#jelly-image {
+  width: 120px;
+  height: 100px;
+  float: left;
+  border-radius: 50%;
+  border: 5px solid hotpink;
+}
+/* Section added by Kai */
+
 h1 {
   background-color: #f58ea0;
   color: #dad8d8;
