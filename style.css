@@ -1,56 +1,90 @@
-h1 {
-  background-color: #f58ea0;
-  color: #dad8d8;
+
+body {
+    font-size: 24px;
+    background-color:mintcream;
 }
 
-h2 {
-  color: #f112f1;
-  background-color: #dad8d8;
+.main-heading-1 {background-color: palevioletred;
+    color: white;
+    width: 400px;
+ 
+
 }
 
-#main-topic {
-  background-color: hotpink;
+.heading-1{background-color: lightgray;
+    color: palevioletred;
+
+}
+.heading-2 {background-color: lightgray;
+    color: palevioletred;
+
+
+}
+h3:hover{
+color: turquoise;
+}
+.sub-heading-1 {background-color: yellow;
+
+
 }
 
-.subtopic {
-  background-color: #ebf64d;
+.sub-heading-2{background-color: yellow;
+
 }
 
-.subtopic:hover {
-  color: rgb(30, 215, 240);
+.heading-3{background-color: lightgray;
+    color: palevioletred;
+
 }
 
-.partners:active {
-  background-color: hotpink;
-  color: #efefef;
+.parag-1{background-color: violet;
+
 }
 
-h4 + ul {
-  list-style: none;
-}
 
-h4 + ul:hover {
-  background-color: #ebf64d;
-}
 
-#contact a:visited {
-  color: rgb(30, 215, 240);
-}
+    a:link{
+        color: violet;
+    }
 
-/* CONTACT PAGE */
+    .image2 {
 
-ul {
-  background-color: rgb(30, 215, 240);
-}
+        float: right;
+        
+    }
 
-ul:hover {
-  background-color: #f58ea0;
-}
+    .image1 {
 
-h3 + ul li {
-  list-style: circle;
-}
+        float: left;
+    }
 
-#main a:visited {
-  color: #ec10bd;
+    .image3 {
+
+        float: left;
+    }
+
+    h4 {
+        margin-top: 100px;
+        font-size: 40px;
+        background-color: blue; 
+        width: 600px;
+        color: white;
+        
+    }
+    
+    .link-jump:hover {
+background-color: violet;
+width: 200px;
+
+
+    } 
+    
+    .link-back:hover {
+        background-color: violet;
+        width: 200px;}
+    /* .contact {
+        font-size: 24px;
+    } */
+
+    .allLinks::first-line  {color: red;
 }
