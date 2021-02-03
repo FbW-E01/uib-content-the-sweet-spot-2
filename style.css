@@ -5,6 +5,17 @@
   object-fit: cover;
 }
 
+body {
+  background-color: rgb(238, 213, 217);
+  text-align: center;
+  list-style: initial;
+  width: 800px;
+}
+
+.class {
+  text-align: center;
+}
+
 h1 {
   background-color: #F58EA0;
   color: #DAD8D8;
@@ -97,4 +108,14 @@ h3 + ul li {
 
 #main a:visited {
   color: #ec10bd;
+}
+
+p::first-letter { color: #ff69b4; }
+
+p::first-line {
+  color: red
+}
+
+p:hover {
+  color: aqua;
 }
