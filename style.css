@@ -1,23 +1,35 @@
 h1 {
-  background-color: #f58ea0;
   color: #dad8d8;
+  text-align: left;
+}
+
+h1 span {
+  background-color:  #f58ea0;
 }
 
 h2 {
   color: #f112f1;
+}
+
+h2 span {
   background-color: #dad8d8;
+}
+
+h3 span {
+  background-color: #ebf64d
+}
+
+h3:hover {
+  color: rgb(30, 215, 240);
 }
 
 #main-topic {
   background-color: hotpink;
+  width: fit-content; /* alternative version to span to frame txt background color */
 }
 
-.subtopic {
-  background-color: #ebf64d;
-}
-
-.subtopic:hover {
-  color: rgb(30, 215, 240);
+#main-topic:hover {
+  background-color: #1ed7f0;
 }
 
 .partners:active {
@@ -53,4 +65,36 @@ h3 + ul li {
 
 #main a:visited {
   color: #ec10bd;
+}
+
+a img {
+  border-radius: 50%;
+  width: 125px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.lollipop {
+  float: left;
+  border: 5px solid #ebf64d;
+ 
+}
+
+.cottoncandy {
+  float: right;
+  border: 5px solid #1ed7f0;
+}
+
+.jelly_bean {
+  float: left;
+  border: 5px solid #ff69b4;
+
+}
+.paragraph_indent {
+  text-align: justify;
+  margin: 10px;
+}
+
+.links-blue-container {
+  width: fit-content;
 }
